@@ -8,7 +8,7 @@ export async function GET() {
         // throw new Error('Simulated error'); // Simulación de error para probar el manejo de errores
 
         return NextResponse.json({ ok: 'ok' }, { status: 200 });
-    } catch (error) {
+    } catch {
         return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
     }
 }
