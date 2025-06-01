@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { Menu, X, Sparkles, Scissors } from "lucide-react"
+import { Menu, X, Scissors } from "lucide-react"
 import { NavbarItem } from "@/components"
 import Link from "next/link"
 
