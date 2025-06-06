@@ -1,9 +1,9 @@
 @reference "tailwindcss";
 
 .navbar-item {
-  @apply font-normal px-4 py-2 m-0 rounded text-gray-100 hover:text-white hover:bg-yellow-200/25 transition-colors;
+  @apply font-normal px-4 py-2 m-0 rounded text-gray-100 hover:text-white hover:bg-yellow-200/25 transition-colors cursor-pointer;
 }
 
 .navbar-item-active {
-  @apply text-white underline;
+  @apply bg-yellow-200/30;
 }

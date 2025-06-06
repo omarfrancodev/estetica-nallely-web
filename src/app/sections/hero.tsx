@@ -4,8 +4,8 @@ import Image from "next/image"
 
 export default function Hero() {
     return (
-        <section id="inicio" className="pt-20 pb-16 bg-gradient-to-br from-purple-50 via-white to-yellow-50">
-            <div className="container mx-auto px-4 py-16">
+        <section id="inicio" className="pt-4 lg:pt-20 pb-16 bg-gradient-to-br from-purple-50 via-white to-yellow-50">
+            <div className="container mx-auto px-4 lg:px-6 py-4 lg:py-16">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     <div className="space-y-8">
                         <div className="space-y-4">
@@ -34,7 +34,9 @@ export default function Hero() {
                                 variant="outline"
                                 className="bg-white border-yellow-300 text-yellow-600 hover:bg-yellow-100 hover:text-gray-700 cursor-pointer px-8 py-4 text-lg"
                             >
-                                Ver Servicios
+                                <a href="#servicios">
+                                    Ver Servicios
+                                </a>
                             </Button>
                         </div>
 
@@ -64,7 +66,7 @@ export default function Hero() {
                                 alt="Estética moderna y elegante"
                                 className="w-full h-96 object-cover rounded-2xl"
                             />
-                            <div className="absolute -bottom-4 -right-4 bg-yellow-500 text-white p-4 rounded-2xl shadow-lg">
+                            <div className="absolute -bottom-4 -right-2 bg-yellow-500 text-white p-4 rounded-2xl shadow-lg">
                                 <div className="text-center">
                                     <div className="text-2xl font-bold">15+</div>
                                     <div className="text-md">Años de experiencia</div>
